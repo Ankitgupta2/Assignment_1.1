@@ -1,0 +1,247 @@
+
+#d1{
+    float: left;
+    font-size: 40px;
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 80px;
+}
+#sh{
+    font-size: 40px;
+    color: rgb(29, 23, 23);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+    
+}
+#d2{
+    float: right;
+    margin-right: 200px;
+}
+#d3{
+    
+    font-size: 20px;
+    color: rgb(29, 23, 23);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 37px;
+    margin-left: 80px;
+    padding: 0;
+}
+#d4{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 450px;
+    margin-top: -30px;
+
+}
+
+#a1{
+    color: black;
+}
+#a1:hover{
+    color: greenyellow;
+}
+#img1{
+   
+    height: 80px;
+    width: 100px;
+    margin-left: 280px;
+    
+}
+#d5{
+  margin-left: 400px;
+  
+  margin-top: -90px;
+}
+#d6{
+    background-color: gray;
+    height: 120px;
+}
+#bt1{
+    background-color: grey;
+    height: 40px;
+    width: 150px;
+    border: 1px solid white;
+    color: white;
+}
+.section1{
+      background-image: url("kid.jpg");
+      background-size: cover;
+      height: 700px;
+      width: auto;
+      margin: 0px;
+      padding:10px;
+      display:flex;
+      flex-wrap: wrap;
+      column-gap:10px;
+    }
+    .play{
+      width: 39%;
+      height: 400px;
+      float: left;
+      margin-top: 150px;
+      text-align: center;
+      }
+      .article{
+      width: 60%;
+      height: 500px;
+      float: left;
+      margin-top: 70px;
+      text-align: center;
+      }
+    #play{
+      padding: 20px 40px;
+      margin: 150px 299px;
+      background-color: rgb(145, 230, 18);
+
+      }
+      #article{
+      margin-top:100px;
+      font:30px American Typewriter, serif;
+      padding: 0 200px;
+    }
+#btnew{
+    background-color: rgb(145, 230, 18);
+    color: white;
+    height: 50px;
+}
+#btnew1{
+    background-color: rgb(145, 230, 18);
+    color: white;
+    height: 50px;
+    
+}
+#newimg{
+    float: right;
+    border: 10px solid rgb(161, 159, 159);
+    height: 200px;
+    width: 250px;
+
+}
+#newsection{
+    margin: 150px;
+}
+.newh{
+    color: grey;
+}
+#news{
+    padding-top: 50px;
+    background-image: url("pontoon-1536x369.webp");
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.newh11{
+    text-align: center;
+color: white;  
+
+}
+#newbtn{
+    height: 50px;
+    align-items: center;
+    margin-left: 430px;
+    margin-top: 20px;
+    border: 2px solid rgb(145, 230, 18);
+}
+.btncircle {
+    background-color:white;
+    color :rgb(145, 230, 18);
+    border-radius: 50%;
+    /*this will rounden-up the button*/
+    width: 80px;
+    height: 80px;
+    /*keep the height and width equal*/
+    font-size: 40px;
+    font-weight: bolder;
+    border: 4px solid rgb(145, 230, 18) ;
+    margin-left: 220px;
+    /* margin-bottom: 20px; */
+ padding-bottom: 10px; 
+  }
+  .btncircle1 {
+    background-color:white;
+    color :rgb(145, 230, 18);
+    border-radius: 50%;
+    /*this will rounden-up the button*/
+    width: 80px;
+    height: 80px;
+    /*keep the height and width equal*/
+    font-size: 40px;
+    font-weight: bolder;
+    border: 4px solid rgb(145, 230, 18) ;
+    align-items: center;
+    padding-bottom: 10px; 
+  }
+  #btndiv{
+     text-align: center;
+  }
+  #spsection{
+      background-color: white;
+  }
+  #newsection1{
+      background-image: url("beach.jpg");
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    height: 500px;
+  }
+  #para1{
+      text-align: center;
+  }
+  
+  .spanbox1{
+    
+    height: 400px;
+    width: 300px;
+   display: inline;
+    background-color: white;
+      margin-left: 300px;
+      float: left;
+      margin-right: 10px;
+text-align: center;
+
+
+  }
+  .spanbox2{
+   
+    height: 400px;
+    width: 300px;
+   display: inline;
+    background-color: white;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+  }
+  #section_mid{
+      background-image: url("beach1.jpeg");
+
+      text-align: center;
+      background-repeat:no-repeat ;
+      background-position: center;
+      background-size: cover;
+      margin-top: 20px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+  }
+  #new_img1{
+      border: 10px solid greenyellow;
+      border-radius: 50%;
+      height: 120px;
+      width: 120px;
+      justify-content: center;
+      margin-left: 120px;
+      margin-right: 120px;
+      margin-top: 50px;
+  }
+  .prev{
+    text-align: center;
+    padding-bottom: -50px;
+  }
+  
+  
