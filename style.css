@@ -1,10 +1,13 @@
-
+#header{
+    margin-left: 80px;
+}
 #d1{
     float: left;
     font-size: 40px;
     color: greenyellow;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: xx-large;
+    font-weight: bolder;
     font-style: italic;
     margin-left: 80px;
 }
@@ -16,18 +19,18 @@
     
     
 }
-#d2{
+#divhead2{
     float: right;
     margin-right: 200px;
 }
 #d3{
-    
+    float: none;
     font-size: 20px;
-    color: rgb(29, 23, 23);
+    color: rgb(59, 49, 49);
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    margin-top: 37px;
-    margin-left: 80px;
+    margin-top: 30px;
+    
     padding: 0;
 }
 #d4{
@@ -44,19 +47,19 @@
 #a1:hover{
     color: greenyellow;
 }
-#img1{
+#imgfolder{
    
     height: 80px;
     width: 100px;
     margin-left: 280px;
     
 }
-#d5{
+#secondsectionpara{
   margin-left: 400px;
   
   margin-top: -90px;
 }
-#d6{
+#secondsection{
     background-color: gray;
     height: 120px;
 }
@@ -117,8 +120,8 @@
 #newimg{
     float: right;
     border: 10px solid rgb(161, 159, 159);
-    height: 200px;
-    width: 250px;
+    height: 300px;
+    width: 350px;
 
 }
 #newsection{
@@ -189,20 +192,21 @@ color: white;
       background-color: white;
   }
   #newsection1{
-      background-image: url("beach.jpg");
+      background-image: url("newbackground.jpeg");
     background-repeat:no-repeat ;
     background-position: center;
     background-size: cover;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    height: 550px;
+    height: 600px;
+padding:10px ;
   }
   #para1{
       text-align: center;
   }
   
   .spanbox1{
-    
+    padding: 20px;
     height: 460px;
     width: 300px;
    display: inline;
@@ -216,6 +220,7 @@ padding-bottom: 0px;
 margin-bottom: 10px;
   }
   .spanbox2{
+    padding: 20px;
    
     height: 460px;
     width: 300px;
@@ -230,7 +235,7 @@ margin-bottom: 10px;
 
   }
   #section_mid{
-      background-image: url("beach1.jpeg");
+      background-image: url("back2.jpeg");
 
       text-align: center;
       background-repeat:no-repeat ;
@@ -239,6 +244,7 @@ margin-bottom: 10px;
       margin-top: 20px;
       padding-top: 10px;
       padding-bottom: 20px;
+      height: 400px;
   }
   #new_img1{
       border: 10px solid greenyellow;
@@ -347,11 +353,12 @@ font-size: 25px;
 
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-style: italic;
+color: white;
 }
-#footsub1{
+#subhead1{
     font-size:50px;
     font-weight: bold;
-    color:rgba(151, 228, 28, 0.849); 
+    color:rgba(156, 248, 7, 0.849); 
     font-style: italic;
 }
 #footsub2{
@@ -440,4 +447,11 @@ padding-top: 15px;
 #lastdiv2{
     float: left;
     margin-left: 200px;
+}
+#btnewread{
+    color: rgb(145, 230, 18);
+    background-color: white;
+    height: 50px;
+    border: 1px solid rgb(145, 230, 18);;
+    
 }
