@@ -141,11 +141,17 @@ color: white;
 
 }
 #newbtn{
-    height: 50px;
+    height: 40px;
     align-items: center;
-    margin-left: 430px;
+    margin-left: 400px;
     margin-top: 20px;
     border: 2px solid rgb(145, 230, 18);
+    width: 400px;
+    background-color: white;
+    color: green;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 0;
 }
 .btncircle {
     background-color:white;
@@ -189,7 +195,7 @@ color: white;
     background-size: cover;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    height: 500px;
+    height: 550px;
   }
   #para1{
       text-align: center;
@@ -197,7 +203,7 @@ color: white;
   
   .spanbox1{
     
-    height: 400px;
+    height: 460px;
     width: 300px;
    display: inline;
     background-color: white;
@@ -205,18 +211,23 @@ color: white;
       float: left;
       margin-right: 10px;
 text-align: center;
+padding-bottom: 0px;
 
-
+margin-bottom: 10px;
   }
   .spanbox2{
    
-    height: 400px;
+    height: 460px;
     width: 300px;
    display: inline;
     background-color: white;
     float: left;
     margin-left: 10px;
     text-align: center;
+padding-bottom: 0px;
+margin-bottom: 10px;
+
+
   }
   #section_mid{
       background-image: url("beach1.jpeg");
@@ -234,14 +245,199 @@ text-align: center;
       border-radius: 50%;
       height: 120px;
       width: 120px;
-      justify-content: center;
-      margin-left: 120px;
+      /* justify-content: center; */
+      /* margin-left: 120px;
       margin-right: 120px;
-      margin-top: 50px;
+      margin-top: 50px; */
   }
-  .prev{
+  /* .prev{
     text-align: center;
     padding-bottom: -50px;
   }
-  
-  
+  #img_l1{
+      justify-content: center;
+      align-items: center;
+  }
+  #left_span{
+      margin-bottom: 80px;
+      padding-left: 200px;
+  } */
+  #left_span{
+      display: inline;
+  }
+  #right_span{
+      display: inline;
+  }
+  #img_l1{
+      display: inline;   
+    text-align: center; }
+    .spanbox11{
+    
+        height: 400px;
+        width: 200px;
+       display: inline;
+        background-color: white;
+          margin-left: 150px;
+          float: left;
+          margin-right: 10px;
+    text-align: center;
+    
+    
+      }
+      .spanbox11n{
+
+      
+      height: 400px;
+        width: 200px;
+       display: inline;
+        background-color: white;
+          margin-left: 100px;
+          float: left;
+        
+         
+   
+}
+#fsec{
+    clear: both;
+    background-color: grey;
+    height: 40px;
+}
+#fimg{
+    display: inline;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 250px;
+
+}
+#footer{
+    clear: both;
+    margin-top: 60px;
+    background-color: rgb(49, 42, 42);
+    text-align: center;
+    height: 470px;
+    padding: 40px;
+}
+#footdiv1{
+    text-align: center;
+    display: inline;
+    color: grey;
+    float:left;
+    margin-left: 15%;
+    
+} 
+#footdiv2{ 
+    text-align: center;
+    display: inline;
+     color: grey;
+    float: left; 
+margin-left: 5%;
+}  
+.footbtn{
+    height: 50px;
+    background-color: rgba(151, 228, 28, 0.849);
+    color: white;
+    border: 0px solid;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 40px;
+
+}
+#footpara{
+font-size: 25px;
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+}
+#footsub1{
+    font-size:50px;
+    font-weight: bold;
+    color:rgba(151, 228, 28, 0.849); 
+    font-style: italic;
+}
+#footsub2{
+    font-size:40px;
+    font-weight: bold;
+    color:grey ;
+    font-style: italic;
+}
+#footsub3{
+    font-size:20px;
+    font-weight: lighter;
+    color:grey ;
+    font-style: normal;
+}
+#footdiv3{
+    clear: both;
+    color: white;
+    margin-top: 40px;
+}
+#footdiv4{
+    
+    float: left;
+    color: grey;
+    margin-left: 15%;
+    width: 20%;
+font-size: 15px;
+text-align: left;
+}
+#footdiv5{
+    /* display: inline; */
+    float: left;
+    color: grey;
+    
+    margin-left: 20px;
+    text-align: left;
+    
+    
+
+}
+
+#footdiv6{
+    /* display: inline; */
+    float: left;
+    color: grey;
+
+    margin-left: 20px;
+    /* margin-right: 20%; */
+    
+    width: 25%;
+    font-size: 15px;
+    text-align: left;
+    
+}
+#footlast{
+    background-color: black;
+    height: 50px;
+}
+#footlast1{
+    float: left;
+    color: grey;
+    margin-left: 120px;
+padding-top: 15px;
+
+}
+#footlast2{
+    float: left;
+    color: grey;
+    margin-left: 120px;
+padding-top: 15px;
+
+
+}
+#footlast3{
+    float: left;
+    color: grey;
+    margin-left: 120px;
+padding-top: 15px;
+}
+#lastdiv{
+    background-color: white;
+}
+#lastdiv1{
+    float: left;
+    margin-left: 400px;
+}
+#lastdiv2{
+    float: left;
+    margin-left: 200px;
+}
