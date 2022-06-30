@@ -54,12 +54,12 @@
     margin-left: 280px;
     
 }
-#secondsectionpara{
+#downloadsectionpara{
   margin-left: 400px;
   
   margin-top: -90px;
 }
-#secondsection{
+#downloaddiv{
     background-color: gray;
     height: 120px;
 }
@@ -70,7 +70,7 @@
     border: 1px solid white;
     color: white;
 }
-.section1{
+.sectionplay1{
       background-image: url("kid.jpg");
       background-size: cover;
       height: 700px;
@@ -106,12 +106,12 @@
       font:30px American Typewriter, serif;
       padding: 0 200px;
     }
-#btnew{
+#btcontact1{
     background-color: rgb(145, 230, 18);
     color: white;
     height: 50px;
 }
-#btnew1{
+#btcontactnow{
     background-color: rgb(145, 230, 18);
     color: white;
     height: 50px;
@@ -124,13 +124,13 @@
     width: 350px;
 
 }
-#newsection{
+#aboutsection{
     margin: 150px;
 }
-.newh{
+.headingabout{
     color: grey;
 }
-#news{
+#stepsection{
     padding-top: 50px;
     background-image: url("pontoon-1536x369.webp");
     background-repeat:no-repeat ;
@@ -138,12 +138,12 @@
     background-size: cover;
     padding-bottom: 50px;
 }
-.newh11{
+.stepsectionhead2{
     text-align: center;
 color: white;  
 
 }
-#newbtn{
+#stepsectionbtn{
     height: 40px;
     align-items: center;
     margin-left: 400px;
@@ -188,10 +188,10 @@ color: white;
   #btndiv{
      text-align: center;
   }
-  #spsection{
+  #spacesection{
       background-color: white;
   }
-  #newsection1{
+  #startedsection{
       background-image: url("newbackground.jpeg");
     background-repeat:no-repeat ;
     background-position: center;
@@ -201,7 +201,7 @@ color: white;
     height: 600px;
 padding:10px ;
   }
-  #para1{
+  #startedsectionpara{
       text-align: center;
   }
   
@@ -234,7 +234,7 @@ margin-bottom: 10px;
 
 
   }
-  #section_mid{
+  #reviewsection{
       background-image: url("back2.jpeg");
 
       text-align: center;
@@ -290,7 +290,7 @@ margin-bottom: 10px;
     
     
       }
-      .spanbox11n{
+      .divpost{
 
       
       height: 400px;
@@ -303,7 +303,7 @@ margin-bottom: 10px;
          
    
 }
-#fsec{
+#downloadsection{
     clear: both;
     background-color: grey;
     height: 40px;
@@ -412,18 +412,18 @@ text-align: left;
     text-align: left;
     
 }
-#footlast{
+#footwebterm{
     background-color: black;
     height: 50px;
 }
-#footlast1{
+#footweb{
     float: left;
     color: grey;
     margin-left: 120px;
 padding-top: 15px;
 
 }
-#footlast2{
+#footterm{
     float: left;
     color: grey;
     margin-left: 120px;
@@ -431,20 +431,20 @@ padding-top: 15px;
 
 
 }
-#footlast3{
+#footsocial{
     float: left;
     color: grey;
     margin-left: 120px;
 padding-top: 15px;
 }
-#lastdiv{
+#divname{
     background-color: white;
 }
-#lastdiv1{
+#divname1{
     float: left;
     margin-left: 400px;
 }
-#lastdiv2{
+#divname2{
     float: left;
     margin-left: 200px;
 }
